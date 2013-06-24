@@ -1,0 +1,29 @@
+module.exports = 
+  { development:
+    {	adapter: 'mysql' 	
+	driver:   "mysql",
+	host: 'localhost',
+        port: 3306,
+        username: 'root',
+        password: '',
+        database: 'budget_dev'
+    }
+  , test:
+    {	adapter: 'mysql' 	
+	driver:   "mysql",
+        host: 'localhost',
+        port: 3306,
+        username: 'root',
+        password: '',
+        database: 'budget_test'
+    }
+  , production:
+    { 	adapter: 'mysql' 	
+	driver:   "mysql",
+        host: 'localhost',
+        port: 3306,
+        username: 'root',
+        password: '',
+        database: 'budget_production'
+    }
+  };
